@@ -1,0 +1,15 @@
+Comandos:
+cria a pasta de trabalho e dentro dela inicia o git
+$ git init
+$ ls -a     // ve arq. ocultos, .git
+$ git add .   // $ git add *     //  adiciona arquivos no git
+$ git commit -m "mensagem"    // gera o commit 
+$ git status
+
+$ echo > README.md     // arq inicial do repositório
+
+$ git push origin master   // empurrar arq. do local para remoto, pede senha
+
+$ git pull origin master   // puxa repositório
+
+$ git clone url  // clona um repositório qquer.
